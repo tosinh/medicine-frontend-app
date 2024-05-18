@@ -33,12 +33,12 @@ const CategoryFilter = ({
   return (
     <>
       <div className="flex justify-between items-center px-2">
-        <div className="text-md font-semibold mb-2">Filter By Category</div>
+        <div className="text-md font-semibold mb-2">Lọc theo danh mục</div>
         <div
           onClick={handleCategoriesReset}
           className="text-sm font-semibold mb-2 underline cursor-pointer text-blue-500"
         >
-          Reset Filters
+          Đặt lại bộ lọc
         </div>
       </div>
 
@@ -78,11 +78,11 @@ const CategoryFilter = ({
         >
           {isExpanded ? (
             <span className="flex flex-row items-center">
-              View Less <ChevronUp />
+              Xem ít hơn <ChevronUp />
             </span>
           ) : (
             <span className="flex flex-row items-center">
-              View More <ChevronDown />
+              Xem thêm <ChevronDown />
             </span>
           )}
         </Button>

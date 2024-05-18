@@ -72,7 +72,7 @@ const SearchPage = () => {
   }
 
   if (!results?.data || !city) {
-    return <span>No results found</span>;
+    return <span>không có kết quả nào được tìm thấy</span>;
   }
 
   return (

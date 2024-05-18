@@ -13,15 +13,15 @@ type Props = {
 
 const SORT_OPTIONS = [
   {
-    label: "Best match",
+    label: "Tốt nhất",
     value: "bestMatch",
   },
   {
-    label: "Delivery price",
+    label: "Giá giao hàng",
     value: "deliveryPrice",
   },
   {
-    label: "Estimated delivery time",
+    label: "Thời gian giao hàng",
     value: "estimatedDeliveryTime",
   },
 ];
